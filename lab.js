@@ -8,21 +8,12 @@ const n4 = 5;
 // arithmetic operators and a comparison.
 
 const isSum50 = (n1 + n2 + n3 + n4) == 50;
-console.log(isSum50)   
-
-// 10 + 15 + 20 + 5 = 50
-
-
 
 // Check two: at least two odd numbers
 // Here, we use modulus to check if something is odd.
 // Since % 2 is 0 if even and 1 if odd, we can use
 // arithmetic to count the total number of odd numbers.
 const isTwoOdd = (n1 % 2) + (n2 % 2) + (n3 % 2) + (n4 % 2) >= 2;
-
-
-
-
 
 
 // Check three: no number larger than 25
@@ -53,3 +44,6 @@ const dontDoThis = ((n1 + n2 + n3 + n4) == 50) &&
   ((n1 % 2) + (n2 % 2) + (n3 % 2) + (n4 % 2) >= 2) && 
   !(n1 > 25 || n2 > 25 || n3 > 25 || n4 > 25) && 
   (n1 != n2 && n1 != n3 && n1 != n4 && n2 != n3 && n2 != n4 && n3 != n4);
+
+let isDivis5 = (( n1 % 5 && n2 % 5 && n3 % 5 && n4 % 5) == 0)
+
