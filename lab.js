@@ -6,12 +6,11 @@ const n4 = 5;
 // Check one: add up to 50
 // This is a fairly simple operation using
 // arithmetic operators and a comparison.
+
 const isSum50 = (n1 + n2 + n3 + n4) == 50;
+console.log(isSum50)   
 
-
-
-
-
+// 10 + 15 + 20 + 5 = 50
 
 
 
@@ -20,6 +19,11 @@ const isSum50 = (n1 + n2 + n3 + n4) == 50;
 // Since % 2 is 0 if even and 1 if odd, we can use
 // arithmetic to count the total number of odd numbers.
 const isTwoOdd = (n1 % 2) + (n2 % 2) + (n3 % 2) + (n4 % 2) >= 2;
+
+
+
+
+
 
 // Check three: no number larger than 25
 // This time, we use the OR operator to check
